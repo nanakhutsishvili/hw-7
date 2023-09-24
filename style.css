@@ -1,0 +1,166 @@
+body  {display: flex;
+       justify-content: center;}
+
+
+* {  box-sizing: border-box; }
+
+.main   {width: 1264px;
+         padding: 20px;}
+
+.table1 > thead > tr> th {padding-left: 25px;}
+.table2 > thead > tr> th {padding-left: 25px;}
+.table2 > tbody > tr> td {padding-left: 25px;}
+.tdbuttons {width: 220px;
+            padding-left: 0% !important;
+            text-align: center !important;}
+
+
+.div2  {width: 1223px;
+        padding-bottom: 19px;
+        margin-top: 50px;}
+ 
+@font-face {
+    font-family:'FiraGO' ;
+    src: url(./FiraGOR.ttf); }
+
+
+h1   { display:inline-flex;
+    width: 148px;
+    height: 24px;   
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;  
+    color: #000000;}
+
+thead   {border: 1px solid #EDEDED;
+    text-align: left;
+    height: 65px;}
+
+
+.table1  { width: 100%;
+    border-collapse: collapse;}
+
+.table2   { width: 100%;
+    border-collapse: collapse;}
+
+.table1 > tbody > tr  { background-color:  #FAFAFA;
+    border: 1px solid #EDEDED;
+    height: 84px;}
+
+.table2 > tbody > tr  { 
+    border: 1px solid #EDEDED;
+    height: 65px;}
+
+
+input   {padding-left: 24px; }
+
+::placeholder  {font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E8E8E8;}
+
+.td1  {width: 409px;
+    text-align: center;}
+
+.td2  {width: 316px;
+    text-align: center;}
+
+.td3  {width: 267px;
+    text-align: center;}
+
+.td4  {width: 219px;
+    text-align: center;}
+
+#inp1  {width: 359px;
+    height: 50px;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;}
+
+#inp2   {width: 266px;
+    height: 50px;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;}
+
+#inp3   {width: 217px;
+    height: 50px;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;}
+
+.button1   {width: 141px;
+    height: 50px;  
+    background: #FFDD04;
+    border-radius: 10px;
+    border: none;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;}
+
+.button2  {width: 141px;
+    height: 40px;
+    background: #FFDD04;
+    border-radius: 10px;
+    float: right;
+    border:none;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;}
+   
+
+.action  { width: 200px;
+           text-align: center !important;
+           padding-left: 0% !important;}
+
+.table1 > tbody > th  {
+    margin-right: 25px;
+    height: 19px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;}
+
+.table2 > tbody > th  {width: calc(1223/6);
+    height: 19px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;}
+
+.delete  {  
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px; 
+    color: #000000;
+    width: 93px;
+    height: 33px;
+    background: #FF8271;
+    border-radius: 10px;
+    border:none;}
+
+.Edit   {font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px; 
+    color: #000000;
+    width: 93px;
+    height: 33px;
+    background: #FFDD04;
+    border-radius: 10px;
+    border: none;}
+
